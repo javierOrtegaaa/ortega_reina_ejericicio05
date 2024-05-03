@@ -1,0 +1,193 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9f9999;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  padding: auto;
+  align-items: center;
+  padding: 20px;
+  background-color: #9f9999;
+  color: #fff;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo p{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #f4e3e3;
+}
+
+.cabecera .logo p strong {
+  color: #fff; 
+}
+
+.cabecera .logo p  {
+  color: rgb(80, 80, 233); 
+}
+
+.inicio {
+  text-align: center;
+  padding: 200px;
+  background-color: #9f9999;
+}
+
+.inicio h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.inicio h2  span {
+  font-size: 24px;
+  color: #0007d1;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.inicio {
+  text-align: left;
+}
+
+.inicio h2  {
+  font-size: 24px;
+  color: #c2c2d1;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.botones button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #087bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px; 
+}
+
+.dudas {
+  margin-right: 10px;
+}
+
+.info {
+  background-color: #ff6600;
+}
+
+.cursos-header {
+  font-size: 72px; /* Ajustar el tamaño de fuente según sea necesario */
+  color: #6c6c6d; /* Cambiar el color si es necesario */
+  text-align: left; /* Alinear el texto a la izquierda */
+  margin-top: 100px; /* Ajustar el espacio superior según sea necesario */
+  margin-bottom: 100px; /* Ajustar el espacio inferior según sea necesario */
+  margin-left: 160px; /* Ajustar el margen izquierdo según sea necesario */
+}
+
+
+
+/*-----------------*/
+
+h1 {
+  grid-column: 1 / -1; 
+  
+  margin-bottom: 30px; 
+  font-size: 86px; 
+  color: gray; 
+  text-shadow: 2px 2px 0px darkgray, 4px 4px 0px gray; /* Efecto 3D */
+}
+
+  .wrapper {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  .one, .two, .three, .four, .five, .six {
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /
+  }
+    
+  .one {
+    border: solid black 1px;
+    grid-column: 1 / span 2;
+    grid-row: 1 / 4;
+  }
+
+  .two {
+    border: solid black 1px;
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }  
+
+  .three {
+    grid-column: 3/3;
+    grid-row: 1 / 4;
+    border: solid black 1px;
+  }
+
+  .four {
+    border: solid black 1px;
+    grid-column: 1 / span 2;
+    grid-row: 4 / 4;
+  }
+
+  .five {
+    grid-column: 3/3;
+    grid-row: 4 / 4;
+    border: solid black 1px;
+  }
+
+  .six {
+    grid-column: 2 / span 3;
+    grid-row: 5 / 6;
+    border: solid black 1px;
+  }
+
+  footer {
+    background: linear-gradient(to top, #969595, #afadad); /* Fondo degradado */
+    color: #fff; /* Color del texto */
+    text-align: center;
+    padding: 30px 0; /* Espaciado interno */
+    margin-top: 5cm; /* Espacio desde la parte superior */
+}
+
+footer a {
+    color: #fff; /* Color de los enlaces */
+    text-decoration: none;
+    margin: 0 10px; /* Espaciado entre los enlaces */
+}
+
+.blanco {
+  background-color: white;
+}
